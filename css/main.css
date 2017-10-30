@@ -70,7 +70,7 @@ header div {
 */
 .block-inicio {
     margin: 180px auto 0;
-    width: 55%;
+    width: 70%;
 }
 
 .block-inicio h1 {
@@ -80,8 +80,8 @@ header div {
 }
 
 .block-inicio figure {
-    position: relative;
-    left: 35%;
+    width: 70%;
+    margin-left: 33%;
 }
 
 .block-inicio h1::after {
@@ -121,15 +121,15 @@ header div {
     width: 70%;
     margin: 80px auto;
 }
-
+/*Colocando en tres columnas las imagenes*/
 .second figure {
-    display: inline-block;
+    column-count: 3;  
     padding-bottom: 80px;
 }
-
+/*modificando el tamaño de img*/
 .content-figures img {
-    width: 30%;
-    padding: 15px;
+    width: 100%;
+    padding: 5px;
 }
 
 .content-figures a {
@@ -214,8 +214,9 @@ header div {
 /*modificando el texto en dos columnas*/
 .block-about .two-columns {
     column-count: 2;
-    margin: 0px 210px  30px;
-    padding-right: 15px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
 }
 /*aplicando estilos al boton download junto a su icono*/
 .block-about a{
@@ -225,7 +226,7 @@ header div {
     border-radius: 5px;
     text-decoration: none;
     color: white; 
-    margin: 41%; 
+    margin-left: 40%;
 }
 /*efecto con hover al boton download*/
 .block-about a:hover, .fa-download:hover{
@@ -274,7 +275,7 @@ header div {
 }
 
 .block-contact .box-input {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     padding: 20px 0;
     border-bottom: 1px solid rgb(215, 215, 216);
@@ -304,7 +305,7 @@ header div {
     border-radius: 5px;
     text-decoration: none;
     color: white; 
-    margin: 20%;
+    margin-left: 15%;
 }
 /*efectos al btn send*/
 .btn-send:hover {
