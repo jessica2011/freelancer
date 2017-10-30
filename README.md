@@ -22,4 +22,6 @@ a lograr:
 ![Freelancer](docs/resultadofreelancer.gif)
  
 
- Además lo podrás encontrar [aqui](https://jessica2011.github.io/freelancer/).
+ Además lo podrás encontrar [aqui](https://jessica2011.github.io/freelancer/)
+
+ Gracias
